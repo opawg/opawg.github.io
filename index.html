@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Open Podcast Analytics Working Group</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/img/site.webmanifest">
+    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="/img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <header class="container">
+      <h1>
+        <img class="full-width logo" src="/img/logo-full.svg" alt="Open Podcast Analytics Working Group">
+      </h1>
+    </header>
+
+    <main class="container">
+      <p class="lead">
+        The <b>Open Podcast Analytics Working Group</b> is a
+        cross-platform initiative to standardize podcast download
+        tracking and measurement.
+      </p>
+
+      <p>
+        Download measurement is currently locked up behind a prohibitively
+        expensive paywall, causing independent podcasters to lose out on
+        reliable metrics, which in turn affects their ability to monetize. The
+        OPAWG is working on a standard anyone can implement, along with a
+        self-certification system that puts trusted metrics in the hands of
+        every podcaster.
+      </p>
+
+      <section id="members">
+        <h2>Founding members</h2>
+        <ul class="founding members">
+          <li>
+            <a href="https://podiant.co/" target="_blank">
+              <img src="/img/members/podiant.svg">
+            </a>
+            <a href="https://podnews.net/" target="_blank">
+              <img src="/img/members/podnews.svg">
+            </a>
+            <a href="https://soundsprofitable.com/" target="_blank">
+              <img src="/img/members/sp.svg">
+            </a>
+            <a href="https://simpler.media/" target="_blank">
+              <img src="/img/members/sm.svg">
+            </a>
+          </li>
+        </ul>
+
+        <p>
+          The working group is currently over 140 members strong. If you&rsquo;d
+          like to join us, email <b>join[at]opawg[dot]org</b>.
+        </p>
+      </section>
+
+      <section id="initiatives">
+        <h2>Initiatives</h2>
+        <p>
+          This is a list of our active projects. Some of them are open to
+          contributions, while some are currently still in the planning phase.
+        </p>
+
+        <ul class="initiatives">
+          <li>
+            <h3>Open Download Measurement Specification 1.0</h3>
+            <p class="description">
+              Our primary goal is to build a standard set of guidelines for
+              measuring what constritutes a download of a podcast episode,
+              considering things like the amount of file downloaded, whether
+              the request came from a known bot, and so on.
+            </p>
+          </li>
+
+          <li>
+            <h3>Testing rig</h3>
+            <p class="description">
+              The key to making the standard relevant and accessible to
+              everyone regardless of budget or platform, is to create an
+              automated testing mechanism that can reconcile a
+              stakeholder&rsquo;s implementation of the standard with the
+              official one (put simply: does someone adopting our standard
+              agree that <i>x</i> number of files have been downloaded <i>y</i>
+              number of times?). This is currnetly in the design phase and
+              <a href="#help">we&rsquo;re looking for technical help</a> in
+              implementing it.
+            </p>
+          </li>
+
+          <li>
+            <h3><a href="https://github.com/opawg/user-agents" target="_blank">User agent list</a></h3>
+            <p class="description">A list of apps, services and bots that consume podcast audio. This data is used by a number of podcast hosts to assist with their analytics.</p>
+            <ul class="related">
+              <li><a href="https://github.com/opawg/user-agents-php" target="_blank">Dummy PHP implementation</a></li>
+              <li><a href="https://github.com/opawg/podcast-rss-useragents" target="_blank">RSS user agent list</a></a>
+            </ul>
+          </li>
+
+          <li>
+            <h3><a href="https://github.com/opawg/podcast-hosts" target="_blank">Podcast host list</a></h3>
+            <p class="description">A JSON list of podcast hosts, and the patterns they use in audio URLs.</p>
+          </li>
+
+          <li>
+            <h3><a href="https://github.com/opawg/podcast-prefixes" target="_blank">Podcast prefixes</a></h3>
+            <p class="description">A JSON list of podcast prefix companies.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="help">
+        <h2>Help us</h2>
+        <p>
+          Right now, we&rsquo;re looking for talented coders, preferably using
+          Python and familiar with test-driven web development, to help us build
+          our test harness.
+        </p>
+
+        <p>
+          We&rsquo;d also welcoem your input into the measurement standard,
+          whether you run a hosting service, tracking prefix, or podcast player.
+          If you run none of these but you have a vested interest in improving
+          the way we count podcast downloads, perfect.
+        </p>
+
+        <p>Email <b>hello[at]opawg[dot]org</b> if you&rsquo;re up for landing a hand.</p>
+      </section>
+    </main>
+
+    <footer class="container">
+      <ul class="socials">
+        <li>
+          <a href="https://github.com/opawg" target="_blank" title="Fork our repos on GitHub">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
