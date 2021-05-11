@@ -279,8 +279,12 @@ ul.members li:first-child a {
 }
 
 ul.members li img {
-  height: 72px;
+  height: 50px;
   display: block;
+}
+
+ul.members.founding li img {
+  height: 72px;
 }
 
 /* Initiatives */
